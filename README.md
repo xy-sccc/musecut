@@ -67,12 +67,12 @@ Step 2:
 ------------------------------------------------------------------------------------------------------------
 
 Step 3: 
--  Open Automator.
+- Open Automator. (Search using spotlight)
 - Click New Document.
 - Choose Quick Action.
 - At the top:
-  Set Workflow receives to no input
-  Set in to any application
+  1. Set Workflow receives to no input
+  2. Set in to any application
 - In the left search bar, type Run AppleScript.
 - Drag Run AppleScript into the workflow area.
 - Delete default text and paste the command below
@@ -85,11 +85,11 @@ run script (POSIX file "/Users/scxy/Documents/Playground/apple-music-mini-window
 
 - Save it as: Mini Music Window.
 - Open System Settings → Keyboard → Keyboard Shortcuts.
-- Go to Services (or Quick Actions), find Mini Music Window, and assign your key combo.
+- Go to Services (or Quick Actions), find Mini Music Window, and assign your key combo. This could be in one of the drop down menu that is shown on your screen right now. Check all of them and you will see Mini Music Window. Assign any key you wish. I did control+option+command+left_arrow
 
 ------------------------------------------------------------------------------------------------------------
 
-Now you are offically done!!! Test with your new shortcut: control+option+command+left_arrow
+Now you are offically done!!! Test with your new shortcut: control+option+command+left_arrow or your own customized one!
 
 Note: 
 - If you see something like “Automator workflow runner is not allowed…”, do this:
@@ -104,6 +104,10 @@ Enable Automator or WorkflowRunner if listed.
 Right-click Music in Dock → Options → Assign To → choose None.
 Check other desktops/spaces in Mission Control.
 In Music menu bar, click Window → Bring All to Front
+
+- If your laptop asks permission and access to document
+
+Say yes, im not going to hack your laptop with this 11 lines of code, so just say yes. 
 
 ------------------------------------------------------------------------------------------------------------
 
